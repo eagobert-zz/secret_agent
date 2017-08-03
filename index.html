@@ -33,7 +33,7 @@
 
     <!--Begin Navigation-->
     <div class="navigation">
-      <div class="nav_container">
+      <div id="widescreen_nav">
         <nav>
           <a class="eyewear" href="#" target="_blank">Eyewear</a>
           <a class="apparel" href="#" target="_blank">Apparel</a>
@@ -46,29 +46,50 @@
     </div>
     <!--End Navigation-->
 
+    <!--Begin Alt Nav for @media <1024px-->
+    <div class="navigation">
+      <div id="smallscreen_nav">
+        <nav>
+          <a class="menu" href="#" target="_blank">Menu</a>
+        </nav>
+      </div>
+    </div>
+    <!--End Alt Nav for @media <1024px-->
+
     <!--Begin Informational Content-->
     <div class="info_container">
 
       <!--Begin Product Grid-->
-      <div class="product_grid">
+      <div id="product_grid_wide">
 
         <div class="product">
-          <img class="product_img" src="./resources/images/pen.png" alt="">
+          <div class="product_img">
+            <img src="./resources/images/pen.png" alt="">
+          </div>
           <p>Exploding Pen</p>
         </div>
 
         <div class="product">
-          <img class="product_img" src="./resources/images/watch.png" alt="">
+          <div class="product_img">
+            <img src="./resources/images/watch.png" alt="">
+          </div>
           <p>Cellular Watch</p>
         </div>
 
         <div class="product">
-          <img class="product_img" src="./resources/images/glasses.png" alt="">
+          <div class="product_img">
+            <img src="./resources/images/glasses.png" alt="">
+          </div>
           <p>Thermal Glasses</p>
         </div>
 
       </div>
+
       <!--End Product Grid-->
+
+      <!--Begin Alt product_grid for @media <1024px-->
+
+      <!--End Alt product_grid for @media <1024px-->
 
       <!--Begin Company Info-->
       <div class="company_info">
